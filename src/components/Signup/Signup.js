@@ -15,6 +15,8 @@ const Signup = () => {
     const email = event.target.email.value;
     const password = event.target.password.value;
     createUserWithEmailAndPassword(email, password);
+    event.target.email.value = "";
+    event.target.password.value = "";
   };
 
   return (

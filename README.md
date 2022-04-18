@@ -1,5 +1,5 @@
 Project Name: Gymspiration
-Site Link: [Gymspiration](https://review-mania.netlify.app/)
+Site Link: [Gymspiration](https://....../)
 
 - This site is about Personal gym trainer
 - Here you'll get personal service package by month
