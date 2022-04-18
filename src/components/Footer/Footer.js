@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 
 const Footer = () => {
+  const date = new Date();
   return (
     <div className="bg-dark text-white p-3">
       <div className="container">
@@ -17,7 +18,11 @@ const Footer = () => {
               BMI
             </a>
           </div>
-          <div className="col-4"></div>
+          <div className="col-4 position-relative">
+            <p className="position-absolute" style={{ bottom: "0px" }}>
+              <small>Copyright &copy;{date.getFullYear()}</small>
+            </p>
+          </div>
           <div className="col-4">
             <h3>Working Hours</h3>
             <div className="my-3">
