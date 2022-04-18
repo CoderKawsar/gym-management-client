@@ -11,25 +11,31 @@ const Slider = () => {
       <Carousel.Item>
         <img className="d-block w-100" src={sliderImage1} alt="First slide" />
         <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+          <h3>Shape it up, get fit. Don't quit</h3>
+          <p>
+            Today I'll do what others won't so tomorrow I can accomplish what
+            others can't. We are what we repeatedly do. Excellence then is not
+            an act but a habit.
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={sliderImage2} alt="Second slide" />
 
         <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          <h3>Sore today, strong tomorrow</h3>
+          <p>
+          What hurts today makes you stronger tomorrow
+          </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         <img className="d-block w-100" src={sliderImage3} alt="Third slide" />
-
         <Carousel.Caption>
-          <h3>Third slide label</h3>
+          <h3>Look in the mirror. That's your competition</h3>
           <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            Some people want it to happen, some wish it would happen, others
+            make it happen - Michael Jordan
           </p>
         </Carousel.Caption>
       </Carousel.Item>
